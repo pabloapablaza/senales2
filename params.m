@@ -38,14 +38,14 @@
     E=[K1*T0;0;0];
     
     x0 = [20,20,20];
-    u=5500; %Calor de entrada
+    u=6000; %Calor de entrada
     %Grafico
     temp=simout;
     t=tout;
     
     plot(t,temp)
     xlabel 'Tiempo [seg]';
-    ylabel 'Temperatura [°C]';
+    ylabel 'Temperatura [Â°C]';
     grid;
     title 'Temperatura de las distintas partes del sistema en funcion del tiempo'
     legend ('Temperatura agua T_a','Temperatura lata T_l','Temperatura manjar T_m')
